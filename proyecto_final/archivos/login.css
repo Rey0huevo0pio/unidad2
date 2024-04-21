@@ -1,0 +1,57 @@
+body {
+    background-image: url(/imagenes_php/pollin.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    color: aqua;
+    
+  }
+  
+  #cuerpo {
+  }
+  
+  .acomodo {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .lik {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .lik a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid red;
+    background-color: #f0f0f0;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .galeria img {
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10px ;
+    border: solid rgb(46, 46, 46);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  .galeria img:hover {
+    transform: scale(1.5);
+
+  }
+  

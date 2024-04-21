@@ -1,0 +1,12 @@
+body{
+    
+    background-color: antiquewhite;
+}
+.titulo{
+    background-color: aqua;
+    color: rgb(0, 21, 255);
+   text-align: center
+}
+.regis{
+    text-align: center;
+}
