@@ -1,0 +1,58 @@
+.body{
+    background-image: url('/fondo/pollin.png');
+}
+
+.Archivos {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Archivos h1 {
+    margin-bottom: 20px;
+}
+
+.Archivos form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Archivos label {
+    margin-bottom: 5px;
+}
+
+.Archivos input[type="text"],
+.Archivos input[type="file"],
+.Archivos textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Archivos input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Archivos input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.Archivos form:nth-child(2) {
+    margin-top: 20px;
+}
+
+.Archivos form:nth-child(2) input[type="submit"] {
+    background-color: #dc3545;
+}
+
+.Archivos form:nth-child(2) input[type="submit"]:hover {
+    background-color: #c82333;
+}

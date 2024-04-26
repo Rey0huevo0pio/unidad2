@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-UA-compatible" content="ie=edge">
     
-    <link rel="stylesheet" href="CSS/Formularioestilo.css">
+    <link rel="stylesheet" href="estilo_css/estilo.css">
 
     <title>Cambiar Contraseña</title>
     <link rel="shortcut icon" type="image/x-icon" href=""> 
@@ -13,10 +13,10 @@
 <body>
     <section class="form-register">
         <center>
-            <h4>CAMBIAR DATOS</h4>
+            <h4>CAMBIOS</h4>
         </center>
 
-        <form action="validar_camb.php" method="post">
+        <form action="Validar_camb.php" method="post">
             
             <input class="controls" type="text" name="id_usuario" id="id_usuario" for="id_usuario" placeholder="ID">
             <input class="controls" type="text" name="user" id="user" for="user" placeholder="Nuevo Nombre">

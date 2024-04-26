@@ -1,0 +1,94 @@
+body {
+    background-image: url('/fondo/pollin.png');
+    font-family: Arial;
+    background: rgb(215, 188, 188) ;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    color: rgb(103, 78, 78);
+    font-family: fantasy;
+    padding: 10px 0;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    color: #78a1ca;
+    text-decoration: none;
+}
+
+.buttons {
+    text-align: right;
+    margin-top: -60px; 
+}
+
+.buttons .button {
+    padding: 10px 20px;
+    margin: 0 5px; 
+    background-color: #a0c0e2;
+    color: #ec8989;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .galeria img {
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10px ;
+    border: solid rgb(216, 144, 144);
+    width: 20vh;
+    height: 20vh;
+    margin: 10px;
+  }
+  .galeria img:hover {
+    transform: scale(1.5);
+
+  }
+  
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    margin-right: 5px;
+}
+
+.header-right {
+    flex-grow: 1; 
+}
+
+.header-left img {
+    width: 50px; 
+    height: auto;
+}
+
+.small-image { width: 250px; height: auto; }
+.medium-image { width: 300px; height: 400px; }
+.large-image { width: 800px; height: 800px; }

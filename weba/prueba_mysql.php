@@ -2,7 +2,7 @@
 $servidor = "localhost";
 $usuariodb = "root";
 $passdb = "";
-$db = "login";
+$db = "pioliom";
 
 $conn = mysqli_connect($servidor,$usuariodb,$passdb,$db);
 if(isset($conn)){
